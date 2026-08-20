@@ -1,0 +1,452 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+   background-color: #FFF2E8;
+}
+
+
+/* Centraliza tudo na tela */
+
+
+.container {
+   min-height: 100vh;
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+/* CAIXA DO CADASTRO */
+
+
+.cadastro {
+   width: 100%;
+   max-width: 450px;
+
+
+   background-color: white;
+
+
+   padding: 40px;
+
+
+   border-radius: 25px;
+
+
+   box-shadow: 0 10px 30px rgba(132, 117, 186, 0.2);
+}
+
+
+
+
+/* TÍTULO */
+
+
+.cadastro h1 {
+   text-align: center;
+
+
+   color: #8475ba;
+
+
+   font-size: 38px;
+
+
+   margin-bottom: 10px;
+}
+
+
+.subtitulo {
+   text-align: center;
+
+
+   color: #000000;
+
+
+   margin-bottom: 30px;
+}
+
+
+
+
+/* CAMPOS */
+
+
+.campo {
+   margin-bottom: 15px;
+}
+
+
+.campo label {
+   display: block;
+
+
+   color: #758C42;
+
+
+   font-weight: bold;
+
+
+   margin-bottom: 6px;
+}
+
+
+.campo input {
+   width: 100%;
+
+
+   padding: 13px;
+
+
+   border: 2px solid #FFC164;
+   border-radius: 10px;
+
+
+   outline: none;
+
+
+   font-size: 15px;
+}
+
+
+
+
+/* QUANDO CLICAR NO INPUT */
+
+
+.campo input:focus {
+   border-color: #000000;
+
+
+   box-shadow: 0 0 8px rgba(132, 117, 186, 0.2);
+}
+
+
+
+
+/* BOTÃO */
+
+
+button {
+   width: 100%;
+
+
+   padding: 14px;
+
+
+   margin-top: 10px;
+
+
+   background-color: #F86464;
+
+
+   color: white;
+
+
+   border: none;
+   border-radius: 10px;
+
+
+   font-size: 16px;
+   font-weight: bold;
+
+
+   cursor: pointer;
+
+
+   transition: 0.3s;
+}
+
+
+button:hover {
+   background-color: #e94f4f;
+
+
+   transform: translateY(-2px);
+}
+
+
+/*LOGIN*/
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+   background-color: #FFF2E8;
+   color: #333;
+}
+
+
+.container {
+   min-height: 100vh;
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* CARD PRINCIPAL */
+
+
+.login {
+   width: 100%;
+   max-width: 420px;
+
+
+   background-color: white;
+
+
+   padding: 40px;
+
+
+   border-radius: 20px;
+
+
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.login h1 {
+   text-align: center;
+
+
+   font-size: 32px;
+
+
+   margin-bottom: 8px;
+
+
+   color: #F86464;
+}
+
+
+.mensagem {
+   text-align: center;
+
+
+   margin-bottom: 30px;
+
+
+   color: #777;
+}
+
+
+/* CAMPOS */
+
+
+.campo {
+   margin-bottom: 18px;
+
+
+   background: none;
+   padding: 0;
+   border: none;
+}
+
+
+.campo label {
+   display: block;
+
+
+   margin-bottom: 6px;
+
+
+   font-weight: bold;
+
+
+   color: #555;
+}
+
+
+.campo input {
+   width: 100%;
+
+
+   padding: 13px;
+
+
+   background-color: white;
+
+
+   border: 1px solid #ccc;
+
+
+   border-radius: 10px;
+
+
+   outline: none;
+
+
+   font-size: 15px;
+}
+
+
+.campo input:focus {
+   border-color: #999;
+}
+
+
+/* ESQUECEU A SENHA */
+
+
+.esqueceu-senha {
+   display: block;
+
+
+   text-align: right;
+
+
+   margin-bottom: 20px;
+
+
+   color: #F86464;
+
+
+   text-decoration: none;
+
+
+   font-size: 14px;
+}
+
+
+/* BOTÃO */
+
+
+button {
+   width: 100%;
+
+
+   padding: 13px;
+
+
+   border: none;
+
+
+   border-radius: 10px;
+
+
+   background-color: #F86464;
+
+
+   color: white;
+
+
+   font-size: 15px;
+
+
+   font-weight: bold;
+
+
+   cursor: pointer;
+
+
+   transition: 0.3s;
+}
+
+
+button:hover {
+   background-color: #e94f4f;
+}
+
+
+/* CADASTRO - SEM CAIXA SEPARADA */
+
+
+.cadastro {
+   text-align: center;
+
+
+   margin-top: 25px;
+
+
+   padding: 0;
+
+
+   background: none;
+
+
+   border: none;
+
+
+   border-radius: 0;
+
+
+   box-shadow: none;
+
+
+   color: #777;
+}
+
+
+.cadastro a {
+   color: #F86464;
+
+
+   font-weight: bold;
+
+
+   text-decoration: none;
+}
+
+
+.cadastro a:hover {
+   text-decoration: underline;
+}
+.login {
+    text-align: center;
+
+    margin-top: 20px;
+
+    padding: 0;
+
+    background: transparent;
+
+    border: none;
+
+    border-radius: 0;
+
+    box-shadow: none;
+
+    width: auto;
+
+    max-width: none;
+}
+
+.login a {
+    color: #F86464;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
