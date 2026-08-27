@@ -49,6 +49,7 @@ body {
     color: #46220f;
     font-size: 38px;
     margin-bottom: 10px;
+    line-height: 1.1;
 }
 
 .subtitulo {
@@ -193,10 +194,11 @@ button:hover {
 }
 
 .informacoes .campo {
-    padding: 12px 14px;
-    border-radius: 12px;
-    background: transparent;
-    border: 1px solid transparent;
+    padding: 16px 18px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(70, 34, 15, 0.18);
+    box-shadow: 0 4px 12px rgba(70, 34, 15, 0.08);
 }
 
 .informacoes .titulo {
@@ -212,6 +214,7 @@ button:hover {
 .informacoes p {
     color: #000000;
     font-size: 16px;
+    margin: 0;
 }
 
 .botoes {
