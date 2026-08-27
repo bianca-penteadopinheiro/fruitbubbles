@@ -85,6 +85,28 @@ button:hover {
     transform: translateY(-2px);
 }
 
+.login-cta {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    width: auto;
+    max-width: none;
+}
+
+.login-cta a {
+    color: #F86464;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-cta a:hover {
+    text-decoration: underline;
+}
+
 /* TEXTO DE LOGIN */
 .login {
     text-align: center;
