@@ -143,3 +143,72 @@ button:hover {
 .login-cta a:hover {
     text-decoration: underline;
 }
+
+/* PERFIL */
+.perfil {
+    width: 100%;
+    max-width: 500px;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+}
+
+.perfil h1 {
+    text-align: center;
+    color: #46220f;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.perfil .mensagem {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: left;
+}
+
+.informacoes .campo {
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+.informacoes .titulo {
+    display: block;
+    color: #46220f;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.informacoes p {
+    color: #000000;
+    font-size: 16px;
+}
+
+.botoes {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.botoes button {
+    flex: 1;
+    margin-top: 0;
+}
+
+.editar,
+.sair {
+    background-color: #F86464;
+}
