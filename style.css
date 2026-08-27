@@ -85,10 +85,47 @@ button:hover {
     transform: translateY(-2px);
 }
 
+.login {
+    width: 100%;
+    max-width: 450px;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+    color: #46220f;
+}
+
+.login h1 {
+    text-align: center;
+    color: #46220f;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.mensagem {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.esqueceu-senha {
+    display: block;
+    margin: 10px 0 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.esqueceu-senha:hover {
+    text-decoration: underline;
+}
+
 .login-cta {
     margin-top: 20px;
     text-align: center;
-    color: #777;
+    color: #46220f;
     background: transparent;
     padding: 0;
     border-radius: 0;
@@ -104,22 +141,5 @@ button:hover {
 }
 
 .login-cta a:hover {
-    text-decoration: underline;
-}
-
-/* TEXTO DE LOGIN */
-.login {
-    text-align: center;
-    margin-top: 20px;
-    color: #777;
-}
-
-.login a {
-    color: #F86464;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.login a:hover {
     text-decoration: underline;
 }
